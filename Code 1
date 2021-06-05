@@ -104,7 +104,7 @@ void init()
 }
 */
 
-
+//function dispaly mode
 int main()
 {
 	init();
@@ -114,7 +114,7 @@ int main()
 		LCD_command(0x01);          //clear the screen 
 		LCD_command(0x80);          //force cursor to beginning of 1st line
 		delay_ms(500);
-		LCD_DATA('A');
+		LCD_DATA('C');
 		delay_ms(500);
 		
 	}
